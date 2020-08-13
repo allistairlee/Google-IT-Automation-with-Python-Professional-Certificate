@@ -1,0 +1,68 @@
+# Crash Course of Python - Week 2 - Basic Python Syntax
+
+## Learning Objectives
+* Understanding variables of different data types
+* Encapsulate code into functions
+* Implementing conditional expressions
+
+---
+
+## Expressions and Variables
+### Data Types
+* There are different data tpyes in Python. Some of the examples include:
+  * **String** represents text wrapped in quotation marks to be manipulated by a script
+  * **Integer** represents whole numbers without a fraction (ex. 1)
+  * **Float** represents real numbers like a number with a fractional part (ex. 2.5)
+* A mix of different data types will result in "TypeError".
+
+### Variables
+* **Variables** are names that we give to certain values in our programs - variables are like containers for data.
+    * Values can be of any data type; numbers, strings or even the results of operations.
+    * Variables are important in programming because they let you perform operations on data that may change
+* **Assignment** is the process of storing a value inside a variable.
+    * A value is assigned to a variable by using the equal sign in the form of variable equals value
+* An **expression** is a combination of numbers, symbols or other variables that produce a result when evaluated.
+* Below are some restrictions when naming variables in Python:-
+  * Key words or functions that Python reserves for its own cannot be used as variable names
+  * Variable names can't have any spaces and they must start with either a letter or an underscore
+  * Variable names can only be made up of letters, numbers and underscores
+  * Python variables are case sensitive
+
+### Expressions, Numbers, and Type Conversion
+* **Implicit conversion** takes plance when the interpreter automatically converts one data type into another.
+* **Explicit conversion** takes place when a function is called to convert one data type into antother
+
+---
+
+## Functions
+### Defining Functions
+* To define a function in Python:-
+  1. Use the **def** keyword to define a function. The name of the function is what comes after the keyword. 
+  2. The parameters of the function are written between parentheses after the name.
+  3. The body of the function must be to the right of the definition.
+* Example:-
+    ```Python
+    def greeting(name):
+        print("Hello, " + name)
+    ```
+
+### Returning Values
+* The return statement allows us to:-
+  * Combine calls to functions
+  * Perform more complex operations
+  * Makes the code more reusable
+   * **In Python, it can return more than one value**
+* **Floor division** is indicated by double hash (//). A floor division divides a number and takes the integer part of the division as the result.
+* **None** is a very special data type in Python used to indicate that things are empty or that they return nothing.
+
+### Code Style
+* A few principles in mind to create good well styled code are:-
+  * Code to be self-documenting as possible
+    * Self-documenting code is written in a way that's readable and doesn't conceal its intent. 
+  * Leave a comment to add a bit of explanatory texts to the code
+    * In Python, comments are indicated by the hash (#) character
+
+---
+
+## Credit
+* [Coursera - Crash Course on Python - Week 1 - Basic Python Syntax](https://www.coursera.org/learn/python-crash-course/home/week/2)
