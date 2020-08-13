@@ -11,8 +11,8 @@
 ### What is programming?
 * At a basic level, a computer program is a recipe of instructions that tells your computer what to do. When you write a program, you create a step by step recipe of what needs to be done to complete a task and when your computer executes the program it reads what you wrote and follows your instructions to the letter.
 * Programming languages are actually similar to humans spoken languages since they have a syntax and semantics.
-  * In a human language, syntax is the rules for how a sentence is constructed while semantics refers to the actual meaning of the statements.  
-  * In a programming language, syntax is the rules for how each instruction is written and the semantics is the effects the instructions have.  
+  * In **human language**, syntax is the rules for how a sentence is constructed while semantics refers to the actual meaning of the statements.  
+  * In **programming language**, syntax is the rules for how each instruction is written and the semantics is the effects the instructions have.  
 * What's the difference between a script and a program? Scripts are programs with a short development cycle that can be created and deployed rapidly. In other words, a script is a program that is short, simple, and can be written very quickly.
 
 ### What is automation?
@@ -38,19 +38,25 @@
 ## Hello World
 ### Hello, World!
 * Functions in Python are pieces of code that performs a unit of work.
-* Keywords in Python are reserved words that are used to construct instruction.
-* `print ("Hello, world!")`
+* There are keywords in Python are reserved words that are used to construct instruction, such as print.
+* ```Python
+  print ("Hello, world!")
+  ```
   * The print function in Python outputs messages to the screen.
   * The print function wraps text in quotation marks indicates that the text is considered a string, which means it's text that will be manipulated by our script.
   
 ### Getting information from the user
 * Data can be provided to a computer in a bunch of different ways.
-* `name = "Brook"`  
-`print("Hello " + name)`
+  * ```Python
+    name = "Brook"
+      print ("Hello, " + name)
+    ```
 
 ### Python can be your calculator too
 * Using Python to calculate complex equations.  
-`print((((1+2)*3)/4)**5)`
+  * ```Python
+    print ((((1+2)*3)/4)**5)
+    ```
     
 ### First Programming Concepts Cheat Sheet
 * [First Programming Concepts Cheat Sheet](https://www.coursera.org/learn/python-crash-course/supplement/nonTo/first-programming-concepts-cheat-sheet)
