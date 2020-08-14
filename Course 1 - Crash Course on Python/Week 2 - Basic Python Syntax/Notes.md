@@ -64,5 +64,39 @@
 
 ---
 
+## Conditionals
+### Compare Things
+* Equality operators allows us to take the result of the expressions and use them to make decisions.
+  | Operators | Name                 |
+  | :--       | :--                  |
+  | ==        | Equals               |
+  | !=        | Not equals           |
+  | <         | Smaller than         |
+  | <=        | Smaller or equals to |
+  | >         | Bigger than          |
+  | >=        | Bigger or equals to  |
+  
+* Logical operators allow connecting multiple statements together and perform more complex comparisons
+  | Operators | Name                         |
+  | :--       | :--                          |
+  | and       | True only if both are True   |
+  | or        | True if either are True      |
+  | not       | True if False, False if True |
+* In Python, uppercase letters are alphabetically sorted *before* lowercase letters
+
+### Branching with if Statements
+* **Branching** is the ability of a program to alter its execution sequence.
+ The body of the if block will only execute when the condition evaluates to true; otherwise, it is skipped.
+
+### else Statements
+* The **modulo operator** is represented by the percentage sign (%) and *returns the remainder of the integer division between two numbers*. 
+* The **integer division** is an operation between integers that *yields two results which are both integers, the quotient and the remainder.*
+* When a return statement is executed, the function exits so that the code that follows doesn't get executed.
+
+### elif Statements
+* The main difference between elif and if statements is that an elif block can be only written as as a companion to an if block.
+
+---
+
 ## Credit
 * [Coursera - Crash Course on Python - Week 1 - Basic Python Syntax](https://www.coursera.org/learn/python-crash-course/home/week/2)
