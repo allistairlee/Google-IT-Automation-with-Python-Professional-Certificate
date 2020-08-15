@@ -99,4 +99,4 @@
 ---
 
 ## Credit
-* [Coursera - Crash Course on Python - Week 1 - Basic Python Syntax](https://www.coursera.org/learn/python-crash-course/home/week/2)
+* [Coursera - Crash Course on Python - Week 2 - Basic Python Syntax](https://www.coursera.org/learn/python-crash-course/home/week/2)
