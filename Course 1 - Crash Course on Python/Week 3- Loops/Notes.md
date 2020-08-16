@@ -38,6 +38,20 @@
 * **Nested for loops** are two for loops, one inside the other.
 * However, use caution when using nested for loops since the longer the list your code needs to iterate through, the longer it takes computer to complete the task. 
 
+### Common Errors
+* The interpreter will refuse to iterate over a single element. This can be mitigated by:-
+  1. Using range().
+  2. Make the loop iterate over a list with the single element.
+* For loops are best when you want to iterate over a known sequence of elements but when you want to operate while a certain condition is true, while loops are the best choice.
+
+---
+
+## Recursion
+### What is recursion?
+* **Recursion** is the repeated application of the same procedure to a smaller problem. 
+* It tackles complex problems by reducing the problem to a simpler one by a function call itself until it reaches the **base case**.
+* In Python, a recursive function can be called up to 1,000 times.
+
 ---
 
 ## Credit
