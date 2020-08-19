@@ -9,7 +9,7 @@ This repository is created to help keep track of my [Google IT Automation With P
 
 ## Table of Contents
 
-1. Crash Course On Python
+1. [Crash Course On Python](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/tree/master/Course%201%20-%20Crash%20Course%20on%20Python)
 2. Using Python to Interact with the Operating System
 3. Introduction to Git and GitHub
 4. Troubleshooting and Debugging Techniques
