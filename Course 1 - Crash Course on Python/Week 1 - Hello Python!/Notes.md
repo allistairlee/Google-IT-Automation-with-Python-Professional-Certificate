@@ -59,7 +59,7 @@
     ```
     
 ### First Programming Concepts Cheat Sheet
-* [First Programming Concepts Cheat Sheet](https://www.coursera.org/learn/python-crash-course/supplement/nonTo/first-programming-concepts-cheat-sheet)
+* [First Programming Concepts Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%201%20-%20Hello%20Python!/First%20Programming%20Concepts%20Cheat%20Sheet.md)
 
 ---
 
