@@ -96,6 +96,9 @@
 ### elif Statements
 * The main difference between elif and if statements is that an elif block can be only written as as a companion to an if block.
 
+### Conditionals Cheat Sheet
+* [Conditionals Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%202%20-%20Basic%20Python%20Syntax/Conditionals%20Cheat%20Sheet.md)
+
 ---
 
 ## Credit
