@@ -44,6 +44,9 @@
   2. Make the loop iterate over a list with the single element.
 * For loops are best when you want to iterate over a known sequence of elements but when you want to operate while a certain condition is true, while loops are the best choice.
 
+### Loops Cheat Sheet
+* [Loops Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%203%20-%20Loops/Loops%20Cheat%20Sheet.md)
+
 ---
 
 ## Recursion
