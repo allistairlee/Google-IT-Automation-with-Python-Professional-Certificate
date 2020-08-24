@@ -20,24 +20,13 @@
 
 ### Creating New Strings
 * Strings in Python are immutable, meaning _they can't be modified_.
+* We can locate the index that contains the letter g using animals.index("g"), which will return the index; in "lions tigers and bears", it's 8. 
+* We can also use substrings to locate the index where the substring begins. animals.index("bears") would return 17, since that’s the start of the substring. 
+* If there’s more than one match for a substring, the index method will return the first match. 
+* If we try to locate a substring that doesn't exist in the string, we’ll receive a ValueError explaining that the substring was not found.
 
-### Formatting Strings
-* String operations:-
-  * len(string) Returns the length of the string.
-  * for character in string - Iterates over each character in the string.
-  * if substring in string - Checks whether the substring is part of the string.
-  * string[i] - Accesses the character at index i of the string, starting at zero.
-  * string[i:j] - Accesses the substring starting at index i, ending at index j-1. If i is omitted, it's 0 by default. If j is omitted, it's len(string) by default.
-
-* String methods:-
-  * string.lower() / string.upper() - Returns a copy of the string with all lower / upper case characters.
-  * string.lstrip() / string.rstrip() / string.strip() - Returns a copy of the string without left / right / left or right whitespace.
-  * string.count(substring) - Returns the number of times substring is present in the string.
-  * string.isnumeric() - Returns True if there are only numeric characters in the string. If not, returns False.
-  * string.isalpha() - Returns True if there are only alphabetic characters in the string. If not, returns False.
-  * string.split() / string.split(delimiter) - Returns a list of substrings that were separated by whitespace / delimiter.
-  * string.replace(old, new) - Returns a new string where all occurrences of old have been replaced by new.
-  * delimiter.join(list of strings) - Returns a new string with all the strings joined by the delimiter.
+### String Reference Cheat Sheet
+* [String Reference Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%204%20-%20Strings%2C%20Lists%20and%20Dictionaries/String%20Reference%20Cheat%20Sheet.md)
 
 ---
 
