@@ -28,6 +28,9 @@
 ### String Reference Cheat Sheet
 * [String Reference Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%204%20-%20Strings%2C%20Lists%20and%20Dictionaries/String%20Reference%20Cheat%20Sheet.md)
 
+### Formatting String Cheat Sheet
+* [Formatting String Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%204%20-%20Strings%2C%20Lists%20and%20Dictionaries/Formatting%20String%20Cheat%20Sheet.md)
+
 ---
 
 ## Lists
