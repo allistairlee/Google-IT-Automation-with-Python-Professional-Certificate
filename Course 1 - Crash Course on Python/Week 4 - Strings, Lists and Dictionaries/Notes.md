@@ -69,6 +69,9 @@
 * Since creating lists based on sequences is such a common task, Python provides a technique called **list comprehension**, which allows it to be done in just one line.
 * List comprehensions let us create new lists based on sequences or ranges.
 
+### Lists and Tuples Operations Cheat Sheet
+* [Lists and Tuples Operations Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%204%20-%20Strings%2C%20Lists%20and%20Dictionaries/Lists%20and%20Tuples%20Operations%20Cheat%20Sheet.md)
+
 ---
 
 ## Dictionaries
