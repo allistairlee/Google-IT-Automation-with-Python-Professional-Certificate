@@ -88,6 +88,8 @@
 * If we only wanted to access the keys in a dictionary, we could use the keys() method on the dictionary: dictionary.keys(). 
 * If you only wanted the values, you could use the values() method: dictionary.values().
 
+### Dictionary Methods Cheat Sheet
+* [Dictionary Method Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%204%20-%20Strings%2C%20Lists%20and%20Dictionaries/Dictionary%20Methods%20Cheat%20Sheet.md)
 ---
 
 ## Credit
