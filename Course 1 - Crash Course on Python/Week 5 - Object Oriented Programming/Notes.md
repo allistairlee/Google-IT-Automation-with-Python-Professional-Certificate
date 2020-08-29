@@ -77,5 +77,54 @@
     ```
 ---
 
+## Code Reuse
+### Inheritance
+* The concept of inheritance allows you to build relationships between objects, grouping together similar concepts and reducing code duplication. 
+  * ```Python
+    class Fruit:
+      def __init__(self, color, flavor):
+        self.color = color
+        self.flavor = flavor
+       
+    class Apple(Fruit):
+      pass
+
+    class Grape(Fruit):
+      pass
+    ```
+
+### Composition
+* Composition is where one class makes use of code contained in another class. 
+  * For example, we have a Package class which represents a software package. It contains attributes about the software package, like name, version, and size. We also have a Repository class which represents all the packages available for installation.
+  * While there’s no inheritance relationship between the two classes, they are related. The Repository class will contain a dictionary or list of Packages that are contained in the repository. 
+  * ```Python
+    class Repository:
+      def __init__(self):
+        self.packages = {}
+      def add_package(self, package):
+        self.packages[package.name] = package
+      def total_size(self):
+        result = 0
+        for package in self.packages.values():
+          result += package.size
+        return result
+    ```
+
+### Python Modules
+* Python modules are separate files that contain classes, functions, and other data that allow us to import and make use of these methods and classes in our own code. 
+* Python comes with a lot of modules out of the box. These modules are referred to as the Python Standard Library.
+* You can make use of these modules by using the **import** keyword, followed by the module name.
+  * ```Python
+    import random
+    random.randint(1,10)
+    8
+    random.randint(1,10)
+    7
+    random.randint(1,10)
+    1
+    ```
+    
+---
+
 ## Credit
 * [Coursera - Crash Course on Python - Week 5 - Object Oriented Programming](https://www.coursera.org/learn/python-crash-course/home/week/5)
