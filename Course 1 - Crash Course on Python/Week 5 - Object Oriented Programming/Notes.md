@@ -75,6 +75,10 @@
       """Returns the amount of seconds in the given hours, minutes and seconds."""
       return hours*3600+minutes*60+seconds
     ```
+    
+### Classes and Methods Cheat Sheet
+* [Classes and Methods Cheat Sheet](https://github.com/allistairlee/Google-IT-Automation-with-Python-Professional-Certificate/blob/master/Course%201%20-%20Crash%20Course%20on%20Python/Week%205%20-%20Object%20Oriented%20Programming/Classes%20and%20Methods%20Cheat%20Sheet.md)
+
 ---
 
 ## Code Reuse
