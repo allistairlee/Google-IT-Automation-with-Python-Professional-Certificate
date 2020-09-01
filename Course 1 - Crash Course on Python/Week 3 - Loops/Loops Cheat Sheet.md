@@ -10,9 +10,9 @@
 ### For Loops
 * A for loop iterates over a sequence of elements, executing the body of the loop for each element in the sequence.
 * The range() function generates a sequence of integer numbers. It can take one, two, or three parameters:-
-  * range(n): 0, 1, 2, ... n-1
-  * range(x,y): x, x+1, x+2, ... y-1
-  * range(p,q,r): p, p+r, p+2r, p+3r, ... q-1 (if it's a valid increment)
+  * range(n) - 0, 1, 2, ... n-1
+  * range(x,y) - x, x+1, x+2, ... y-1
+  * range(p,q,r) - p, p+r, p+2r, p+3r, ... q-1 (if it's a valid increment)
 * Common pitfalls:-
   * Forgetting that the upper limit of a range() isn’t included.
   * Iterating over non-sequences. Integer numbers aren’t iterable. Strings are iterable letter by letter, but that might not be what you want.
