@@ -1,0 +1,37 @@
+# Crash Course of Python - Week 6 - Putting It All Together
+
+## Practice Quiz: Putting It All Together
+In [5]
+```Python
+def get_event_date(event):
+  return event.date
+
+def current_users(events):
+  events.sort(key=get_event_date)
+  machines = {}
+  for event in events:
+    if event.machine not in machines:
+      machines[event.machine] = set()
+    if event.type == "login":
+      machines[event.machine].add(event.user)
+    elif event.type == "logout" and machines[event.machine] == event.user:
+      machines[event.machine].remove(event.user)
+  return machines
+
+def generate_report(machines):
+  for machine, users in machines.items():
+    if len(users) > 0:
+      user_list = ", ".join(users)
+      print("{}: {}".format(machine, user_list))
+```
+
+In [8]
+```Python
+users = current_users(events)
+print(users)
+```
+
+In [9]
+```Python
+generate_report(users)
+```
