@@ -61,5 +61,23 @@
 
 ---
 
+## Automating Tasks Through Programming
+
+### Benefits of Automation
+* Automation is like an IT force multiplier, a tool that can increase the effectiveness of an IT team without needing to increase the number of team members. 
+* Allow for infrastructure to scale, keeping pace with growth and demand (ex. new employee onboarding - manual vs. automated process).
+* Free up human resources allowing more focus on strategic and creative work.
+* Centralizing mistakes, which means if there's an error in a script, it's easily fixable the error onoce and for all. 
+
+### Pitfalls of Automation
+* Time and effort it'll take to write the script, is it worth the potential automation benefits?
+ * If we estimate that it would take less time to automate the tasks than it would to do it manually, chances are, it'sa good candidate for automation.
+* No hard and fast rules when it comes to automation, but the cost time tradeoff can help guide decisions.
+* Pareto Princicple can also be a useful guideline to help decide which tasks to automate. 
+ * When applied to automation in IT, the Pareto Principle states that 20% of the system administration tasks that you perform are responsible for 80% of your work.
+* False confidence and an automated system, may also factor into decision making.
+
+---
+
 ## Credit
-* [Coursera - Using Python to Interact with the Operating System - Week 1](https://www.coursera.org/learn/python-operating-system/home/week/1)
+* [Coursera - Using Python to Interact with the Operating System - Week 1 - Getting Your Python On](https://www.coursera.org/learn/python-operating-system/home/week/1)
