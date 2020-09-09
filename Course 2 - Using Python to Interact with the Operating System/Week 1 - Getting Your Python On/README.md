@@ -1,7 +1,6 @@
 # Using Python to Interact with the Operating System - Week 1 - Getting Your Python On
 
 ## Getting Ready for Python
-
 ### Getting Familiar with the Operating System
 * The operating system (OS) manages everthing that goes on the in the computer.
 * There are 2 main parts in OS:-
@@ -23,7 +22,6 @@
 ---
 
 ## Running Python Locally
-
 ### Interpreted vs. Compiled Languages
 * Compiled language needs to feed source code into compiler, which translates the source code into machine level language. 
   * Compiled program is super fast to run, but the compilation process itself can take a bit of time.
@@ -62,7 +60,6 @@
 ---
 
 ## Automating Tasks Through Programming
-
 ### Benefits of Automation
 * Automation is like an IT force multiplier, a tool that can increase the effectiveness of an IT team without needing to increase the number of team members. 
 * Allow for infrastructure to scale, keeping pace with growth and demand (ex. new employee onboarding - manual vs. automated process).
