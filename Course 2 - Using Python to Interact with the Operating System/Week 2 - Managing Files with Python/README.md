@@ -59,6 +59,12 @@
   * Rename function changes name of a file.
     * The first parameter to rename function is the old name of the file and the second is new name.
 
+### More File Informations
+* **getsize** checks a file size and returns the file size in bytes.
+* **getmitime** checks when the file was last modified and returns Unix timestamp.
+* **abspath** function takes a filename and turns it into an absolute path.
+* **datetime module** provides a function to convert the Unix timestamp.
+
 ---
 
 ## Credit
