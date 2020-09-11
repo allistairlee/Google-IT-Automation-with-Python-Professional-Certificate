@@ -67,5 +67,12 @@
 
 ---
 
+## Reading and Writing CSV Files
+### What is a CSV file?
+* CSV or comma separated values is a very common data format used to store data as segment of text separated by commas.
+* This format lets us easily store and retrieve information that we might need for our scripts like employees in our company or computer's inner network.
+* A lot of programs are capable of exporting data as CSV files, such as spreadsheet applications like Microsoft Excel or Google Sheets. 
+* It can actually be helpful to think of a CSV file like it's a spreadsheet, where each line corresponds to a row and each comma separated field corresponds to a column. 
+
 ## Credit
 * [Coursera - Using Python to Interact with the Operating System - Week 2 - Managing Files with Python](https://www.coursera.org/learn/python-operating-system/home/week/2)
