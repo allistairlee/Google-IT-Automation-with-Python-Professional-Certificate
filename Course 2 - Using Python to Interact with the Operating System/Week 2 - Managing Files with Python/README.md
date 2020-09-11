@@ -74,5 +74,21 @@
 * A lot of programs are capable of exporting data as CSV files, such as spreadsheet applications like Microsoft Excel or Google Sheets. 
 * It can actually be helpful to think of a CSV file like it's a spreadsheet, where each line corresponds to a row and each comma separated field corresponds to a column. 
 
+### Reading CSV Files
+* CSV files are stored in plaintext. 
+* Each line in a CSV file generally represents a single data record.
+* Each field in that record is separated by a comma, with the contents of the field stored between the commas.
+* CSV module is used to parse a CSV file, with reader function, csv.reader().
+
+### Generating CSV
+* This uses the writer function of the CSV module, csv.writer().
+
+### Reading and Writing CSV Files with Dictionaries
+* This uses a slightly different reader of the CSV module, using DictReader, csv.DictReader().
+  * This reader turns each row of the data in a CSV file into a dictionary. 
+  * We can then access the data by using the column names instead of the position in the row.
+
+---
+
 ## Credit
 * [Coursera - Using Python to Interact with the Operating System - Week 2 - Managing Files with Python](https://www.coursera.org/learn/python-operating-system/home/week/2)
