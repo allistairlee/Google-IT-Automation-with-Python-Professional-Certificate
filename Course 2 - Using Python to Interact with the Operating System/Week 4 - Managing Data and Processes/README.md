@@ -10,3 +10,8 @@
   * STDIN - the standard input stream which is a channel between a program and a source of input.
   * STDOUT - the standard output stream which is a pathway between a program and a target of output.
   * SDTERR - the standard error stream which displays output like standard out, but is used specifically as a channel to show error messages and diagnostics from the program.
+  
+---
+  
+## Credit
+* [Coursera - Using Python to Interact with the Operating System - Week 4 - Managing Data and Processes](https://www.coursera.org/learn/python-operating-system/home/week/4)
