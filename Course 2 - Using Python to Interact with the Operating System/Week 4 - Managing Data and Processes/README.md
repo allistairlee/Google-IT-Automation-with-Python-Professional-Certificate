@@ -28,8 +28,8 @@
 * Parameter values can be accessed using the **argv** in the **sys** module.
 * **Exit status** or **return code** is a value returned by a program to the shell. It provides another source of information between the shell and the programs that get executed inside of it.
 * To see what the exit status of the last executed command was use the following commands:-
-  * Use ?$ to see the contents
-  * Use wc to count the number of lines words and characters in a file
+  * Use ?$ to see the contents.
+  * Use wc to count the number of lines words and characters in a file.
   
 ---
 
@@ -40,6 +40,11 @@
 * To run the external command a secondary environment is created for the child process or subprocess where the command is executed.
   * After the external command completes its work, the child process exits and the flow of control returns to the parent. 
   
+### Obtaining the Output of a System Command
+* The **host** command converts a host name to an IP address and vice versa.
+* The **decode function** applies an encoding to transform the bytes into a string.
+  * It uses a UTF-8 encoding by default.
+
 ---
   
 ## Credit
