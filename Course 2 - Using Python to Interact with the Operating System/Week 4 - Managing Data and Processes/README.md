@@ -32,6 +32,15 @@
   * Use wc to count the number of lines words and characters in a file
   
 ---
+
+## Python Subprocesses
+### Running System Commands in Python
+* Python provides a way to execute system commands in our scripts, using functions provided by the subprocess module.
+  * The run function returns an object of the CompletedProcess type.
+* To run the external command a secondary environment is created for the child process or subprocess where the command is executed.
+  * After the external command completes its work, the child process exits and the flow of control returns to the parent. 
+  
+---
   
 ## Credit
 * [Coursera - Using Python to Interact with the Operating System - Week 4 - Managing Data and Processes](https://www.coursera.org/learn/python-operating-system/home/week/4)
