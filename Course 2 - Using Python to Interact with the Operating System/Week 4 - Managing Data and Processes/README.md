@@ -43,7 +43,7 @@
 ### Obtaining the Output of a System Command
 * The **host** command converts a host name to an IP address and vice versa.
 * The **decode function** applies an encoding to transform the bytes into a string.
-  * It uses a UTF-8 encoding by 
+  * It uses a UTF-8 encoding by default.
 
 ---
   
