@@ -52,6 +52,13 @@
   3. Pass the changed environment as the environment that the child process will see.
 * The **copy method** of the OS environ creates a new dictionary that can be changed as needed without modifying the original environment.
 * The **path variable** indicates where the operating system will look for the executable programs.
+* Some of parameters that can be used with the run function includes:-
+  * The CWD parameter which changes the current working directory where the command will be executed.
+    * Useful when working with a set of directories where you need to run a command on each of them.
+  * The timeout parameter which cause the run function to kill the process if it takes longer than a given number of seconds to finish.
+    * Useful if you're running a command that you know might get stuck.
+  * The shell parameter which if set to true, Python will first execute an instance of the default system shell and then run the given command inside of it.
+    * Useful if command line needs include variable expansions and other shell operations.
 
 ---
   
