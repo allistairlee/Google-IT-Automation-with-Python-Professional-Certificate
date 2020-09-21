@@ -44,6 +44,14 @@
 * The **host** command converts a host name to an IP address and vice versa.
 * The **decode function** applies an encoding to transform the bytes into a string.
   * It uses a UTF-8 encoding by default.
+  
+### Advanced Subprocess Management
+* The usual strategy for modifying the environment of a child process is:-
+  1. Copy the environment seen by the process.
+  2. Do any necessary changes.
+  3. Pass the changed environment as the environment that the child process will see.
+* The **copy method** of the OS environ creates a new dictionary that can be changed as needed without modifying the original environment.
+* The **path variable** indicates where the operating system will look for the executable programs.
 
 ---
   
