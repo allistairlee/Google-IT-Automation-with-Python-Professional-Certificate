@@ -61,6 +61,15 @@
     * Useful if command line needs include variable expansions and other shell operations.
 
 ---
+
+## Processing Log Files
+### Filtering Log Files with Regular Expressions
+* The usual technique to operate on files is to:-
+  1. Call the open function which returns a file object.
+  2. Iterate through each of its lines using a for-loop.
+* For performance reasons, when files are large, it's generally a good practice to read them line by line instead of loading the entire contents into memory.
+
+---
   
 ## Credit
 * [Coursera - Using Python to Interact with the Operating System - Week 4 - Managing Data and Processes](https://www.coursera.org/learn/python-operating-system/home/week/4)
