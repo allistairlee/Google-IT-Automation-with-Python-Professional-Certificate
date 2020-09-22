@@ -63,6 +63,10 @@
 ---
 
 ## Processing Log Files
+### What are log files?
+* Log files contain a lot of useful information, particularly when you're trying to debug a tricky problem that's happening on a computer.
+* Using regex's in our scripts gives us a great deal of flexibility when processing log files and other texts data sources.
+
 ### Filtering Log Files with Regular Expressions
 * The usual technique to operate on files is to:-
   1. Call the open function which returns a file object.
