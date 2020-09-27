@@ -19,6 +19,15 @@
 * An important characteristic of a unit test is **isolation**.
 * Unit test should only test the unit of code they target, the function or method that's being tested. This ensures that any success or failure of the test is caused by the behavior of the unit in question and doesn't result from some external factor like the network being down or a database server being unresponsive.
 
+### Writing Unit Tests in Python
+* Use the **unittest module** which includes classes and methods for creating unit tests to write unit tests in Python.
+
+### Edge Cases
+* Edge cases are inputs that produce unexpected results, and are found at the extreme ends of the ranges of input that programs could work with.
+* Some of the edge case examples for a function that expects a number include:-
+  * Passing zero to 
+  * Negative numbers
+  * Extremely large numbers
 
 ---
 
