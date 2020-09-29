@@ -28,6 +28,15 @@
   * Passing zero to 
   * Negative numbers
   * Extremely large numbers
+  
+---
+
+## Other Test Comcepts
+### Black Box vs. White Box
+* **White-box** testing, clear-box or transparent testing relies on the test creators knowledge of the software being tested to construct the test cases. 
+    * White-box tests are helpful because a test writer can use their knowledge of the source code to create tests that cover most of the ways that the program behaves.
+* **Black-box** tests or opaque testing are written with an awareness of what the program is supposed to do, its requirements or specifications, but not how it does it.
+    * Black-box tests are useful because they don't rely on the knowledge of how the system works. This means their test cases are less likely to be biased by the code. They usually cover situations not anticipated by the programmer who originally wrote the script.
 
 ---
 
