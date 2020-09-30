@@ -48,6 +48,10 @@
 * **Load tests** verify that the system behaves well when it's under significant load.
 * Taking together a group of tests of one or many kinds is commonly referred to as a **test suite**.
 
+### Test-Driven Development
+* **Test-driven development** or TDD is a process that calls for creating the test before writing the code.
+* **Continuous Integration** is a process that combines version control system and developmement processes. When engineers submit their code, it's integrated into the main repository and tests are automatically run against it to spot bugs and errors.
+
 ---
 
 ## Credit
