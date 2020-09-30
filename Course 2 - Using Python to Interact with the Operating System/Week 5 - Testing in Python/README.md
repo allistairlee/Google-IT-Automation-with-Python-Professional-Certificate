@@ -46,8 +46,7 @@
     * Smoke test for a web service would be to check if there's a service running on the corresponding port
     * Smoke test for an automation script would be to run it manually with some basic input and check that the script finishes successfully
 * **Load tests** verify that the system behaves well when it's under significant load.
-
-Taking together a group of tests of one or many kinds is commonly referred to as a **test suite**.
+* Taking together a group of tests of one or many kinds is commonly referred to as a **test suite**.
 
 ---
 
