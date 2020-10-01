@@ -4,8 +4,8 @@
 ### What is testing?
 * Software testing is a process of evaluating computer code to determine whether or not it does what you expect it to do.
 * Writing tests can help wth:-
-  * Eliminate bugs
-  * Improve the reliability and the quality of automation
+  * Eliminate bugs.
+  * Improve the reliability and the quality of automation.
   
 ### Manual Testing and Automated Testing
 * The **manual testing** is the most basic way of testing a script by running the test with different parameters and see if it returns the expected values.
@@ -25,9 +25,9 @@
 ### Edge Cases
 * Edge cases are inputs that produce unexpected results, and are found at the extreme ends of the ranges of input that programs could work with.
 * Some of the edge case examples for a function that expects a number include:-
-  * Passing zero to 
-  * Negative numbers
-  * Extremely large numbers
+  * Passing zero to.
+  * Negative numbers.
+  * Extremely large numbers.
   
 ---
 
@@ -43,8 +43,8 @@
 * **Integration tests** take the individual modules of code that unit test verify then combine them into a group to test. It verify that the interactions between the different pieces of code in integrated environments are working as expected.
 * **Regression test** is a variant of unit tests. It is usually written as part of a debugging and troubleshooting process to verify that an issue or error has been fixed once it's been identified. Regression tests are useful part of a test suite because they ensure that the same mistake doesn't happen twice.
 * **Smoke test** sometimes called build verification test, get their name from a concept that comes from testing hardware equipment. 
-    * Smoke test for a web service would be to check if there's a service running on the corresponding port
-    * Smoke test for an automation script would be to run it manually with some basic input and check that the script finishes successfully
+    * Smoke test for a web service would be to check if there's a service running on the corresponding port.
+    * Smoke test for an automation script would be to run it manually with some basic input and check that the script finishes successfully.
 * **Load tests** verify that the system behaves well when it's under significant load.
 * Taking together a group of tests of one or many kinds is commonly referred to as a **test suite**.
 
