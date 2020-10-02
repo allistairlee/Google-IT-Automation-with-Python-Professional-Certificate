@@ -59,6 +59,14 @@
 * **Try-except construct** is useful when trying to handle possible errors that could happen instead of multiple if/else statements.
 * The code in the except block is only executed if one of the instructions in the try block raise an error of the matching type. To use a try-except block, be aware of the errors that functions that we're calling might raise.
 
+### Raising Errors
+* Keyword to generate an error in Python is **raise**. 
+* We can raise a bunch of different errors that come already pre-built with Python or we can create our own, if the standard ones aren't good enough.
+* Assertions can be super helpful for debugging some code that's not behaving the way we expect it to. 
+  * We can add them at any point where we want to ensure that the variables contain the values and types that they should or when we think that's something that shouldn't happen is happening. 
+  * Assertions will get removed from our code if we ask the interpreter to optimize it to run faster.
+    * So as a rule, we should use raise to check for conditions that we expect to happen during normal execution of our code and assert to verify situations that aren't expected but that might cause our code to misbehave.
+    
 ---
 
 ## Credit
