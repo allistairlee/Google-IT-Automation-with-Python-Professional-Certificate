@@ -67,6 +67,9 @@
   * Assertions will get removed from our code if we ask the interpreter to optimize it to run faster.
     * So as a rule, we should use raise to check for conditions that we expect to happen during normal execution of our code and assert to verify situations that aren't expected but that might cause our code to misbehave.
     
+### Testing for Expected Errors
+* We use the **assertRaises** method provided by the unit test module.
+    
 ---
 
 ## Credit
